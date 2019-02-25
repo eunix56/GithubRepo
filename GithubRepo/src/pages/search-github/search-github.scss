@@ -1,0 +1,27 @@
+page-search-github {
+    $colors: (
+  primary:    #1c1e22,
+  secondary:  #FFE300,
+  danger:     #f53d3d,
+  light:      #c8c8c8,
+  dark:       #272b30
+);
+
+.searchBar{
+    margin-bottom: 10px;
+    border-radius: 30px;
+    padding-left: 30px;
+    border: 1px solid;
+    border-bottom: 0px;
+    box-shadow: none;
+    font-size: 0.9em;
+    color: darken($color: #000000, $amount: 80)
+}
+
+.spinner{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+}

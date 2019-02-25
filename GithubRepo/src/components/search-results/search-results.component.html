@@ -1,0 +1,9 @@
+<!-- Generated template for the SearchResultsComponent component -->
+<ion-item *ngIf="repository"text-wrap>
+    <ion-avatar item-left ng-bind="repository.owner">
+        <img [src]="repository.owner.avatar_url"  alt="">
+      </ion-avatar>
+      <h2>{{repository.name}}</h2>
+      <p text-wrap>{{repository.description}}</p>
+      <p>{{repository.language}}</p>
+</ion-item>

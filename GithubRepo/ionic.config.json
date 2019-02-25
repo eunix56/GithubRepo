@@ -1,0 +1,8 @@
+{
+  "name": "GithubRepo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "0827d0e9"
+}

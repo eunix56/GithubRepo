@@ -1,0 +1,13 @@
+<!-- Generated template for the FullRepoComponent component -->
+<ion-content padding *ngIf="repository" text-wrap>
+    <ion-avatar item-left  ng-bind="repository.owner">
+        <img [src]="repository.owner.avatar_url"  alt="">
+      </ion-avatar>
+      <h3>{{repository.name}}</h3>
+      <h2>{{repository.fullname}}</h2>
+      <p text-wrap>{{repository.description}}</p>
+      <p>{{repository.language}}</p>
+      <p>{{repository.stars}}</p>
+      <p>{{repository.forks}}</p>
+      <p>{{repository.html_url}}</p>
+</ion-content>
